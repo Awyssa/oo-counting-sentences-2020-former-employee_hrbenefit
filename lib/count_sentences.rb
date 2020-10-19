@@ -6,7 +6,7 @@ class String
     # if self[-1] = "."
     #   return true
     # end
-    self.eng_with?(".")
+    self.end_with?(".")
   end
 
   def question?
