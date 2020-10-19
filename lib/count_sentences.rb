@@ -8,6 +8,7 @@ class String
     # end
     self.eng_with?(.)
   end
+  end
 
   def question?
 
