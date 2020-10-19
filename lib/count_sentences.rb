@@ -6,8 +6,7 @@ class String
     # if self[-1] = "."
     #   return true
     # end
-    self.eng_with?(.)
-  end
+    self.eng_with?(".")
   end
 
   def question?
@@ -21,4 +20,5 @@ class String
   def count_sentences
 
   end
+  
 end
